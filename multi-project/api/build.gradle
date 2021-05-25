@@ -1,0 +1,20 @@
+plugins {
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
+
+dependencies {
+    implementation project(':core')
+}
+
+application {
+    mainClassName = 'com.pozharsky.dmitri.App'
+}
+
+group 'com.pozharsky.dmitri'
+version '1.0-SNAPSHOT'
+
